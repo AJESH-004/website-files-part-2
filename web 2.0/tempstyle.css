@@ -1,0 +1,829 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* body */
+body{
+    background-image: url('assets/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* navbar */
+.abouthead a{
+    position: absolute;
+    top: 3%;
+    left: 18%;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+}
+
+.porthead h2{
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    color: white;
+    font-size: 200%;    
+}
+
+.experiencehead a{
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    text-decoration: none;  
+    color: white;
+    font-size: 150%;
+}
+
+/* name */
+
+.name1{
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    font-size: 1300%;
+}
+
+.name2{
+    position: absolute;
+    font-size: 1300%;
+    top: 40%;
+    left: 23%;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+}
+
+.projectfooter a{
+    position: absolute;
+    bottom: 0;
+    left: 34%;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+.dotfooter h1{
+    position: absolute;
+    bottom: 0.5%;
+    left: 47%;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+}
+.contactfooter a{
+    position: absolute;
+    bottom: 0.2%;
+    left: 50%;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* hover */
+.abouthead a:hover{
+    color: grey;
+    transition: 0.2s;
+}
+
+.experiencehead a:hover{
+    color: grey;
+    transition: 0.2s;
+}
+
+.projectfooter a:hover{
+    color: grey;
+    transition: 0.2s;
+}
+
+.contactfooter a:hover{
+    color: grey;
+    transition: 0.2s;
+}
+
+.name:hover{
+    .name1{
+        color: transparent;
+    transition: 0.2s;
+    -webkit-text-stroke: 3px white;
+    }
+    .name2{
+        color: black;
+        -webkit-text-stroke:3px black;
+        transition: 0.2s;
+    }    
+}
+.name{
+    margin-top:14% ;
+    height: 40%;
+}
+
+
+/* media */
+@media only screen and (max-width:1400px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 130%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 180%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 130%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 29%;
+        left: 24%;
+        font-size: 1200%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 1200%;
+        top: 40%;
+        left: 21%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 130%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 44%;
+        font-size: 130%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 130%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:21% ;
+        height: 40%;
+
+    }
+}
+
+
+@media only screen and (max-width:1200px){
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 120%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 170%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 120%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 29%;
+        left: 20%;
+        font-size: 1200%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 1200%;
+        top: 40%;
+        left: 17%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 34%;
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 48%;
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+    }
+    .name{
+        margin-top:21% ;
+        height: 40%;
+
+    }
+}
+
+@media only screen and (max-width:1100px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 100%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 150%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 100%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 29%;
+        left: 18%;
+        font-size: 1100%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 1100%;
+        top: 40%;
+        left: 14%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 44%;
+        font-size: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 100%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:21% ;
+        height: 40%;
+
+    }
+}
+
+
+
+@media only screen and (max-width:900px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 80%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 130%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 80%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 29%;
+        left: 16%;
+        font-size: 1000%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 1000%;
+        top: 40%;
+        left: 11%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 80%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 44%;
+        font-size: 80%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 80%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:25% ;
+        height: 40%;
+
+    }
+}
+
+@media only screen and (max-width:750px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 65%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 115%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 65%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 29%;
+        left: 14%;
+        font-size: 900%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 900%;
+        top: 38%;
+        left: 10%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 45%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:28% ;
+        height: 40%;
+
+    }
+}
+
+@media only screen and (max-width:630px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 65%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        color: white;
+        font-size: 115%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 65%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 30%;
+        left: 11%;
+        font-size: 800%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 800%;
+        top: 35%;
+        left: 8%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 45%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:45% ;
+        height: 32%;
+        
+    }
+}
+
+@media only screen and (max-width:540px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 3%;
+        left: 18%;
+        text-decoration: none;
+        color: white;
+        font-size: 65%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 2.5%;
+        left: 37%;
+        color: white;
+        font-size: 115%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        text-decoration: none;  
+        color: white;
+        font-size: 65%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 30%;
+        left: 11%;
+        font-size: 700%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 700%;
+        top: 35%;
+        left: 8%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 47%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:52% ;
+        height: 28%;
+        
+    }
+}
+
+@media only screen and (max-width:465px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        text-decoration: none;
+        color: white;
+        font-size: 65%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 4.4%;
+        left: 34%;
+        color: white;
+        font-size: 115%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 5%;
+        left: 72%;
+        text-decoration: none;  
+        color: white;
+        font-size: 65%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        font-size: 650%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 650%;
+        top: 25%;
+        left: 4%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 30%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 48%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:60% ;
+        height: 28%;
+        
+    }
+}
+
+@media only screen and (max-width:410px){
+    
+    .abouthead a{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        text-decoration: none;
+        color: white;
+        font-size: 65%;
+    }
+    
+    .porthead h2{
+        position: absolute;
+        top: 4.4%;
+        left: 34%;
+        color: white;
+        font-size: 115%;    
+    }
+    
+    .experiencehead a{
+        position: absolute;
+        top: 5%;
+        left: 72%;
+        text-decoration: none;  
+        color: white;
+        font-size: 65%;
+    }
+
+    .name1{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-size: 650%;
+        -webkit-text-stroke: 3px white;
+    }
+    
+    .name2{
+        position: absolute;
+        font-size: 650%;
+        top: 25%;
+        left: 1%;
+        color: transparent;
+        -webkit-text-stroke: 3px white;
+    }
+
+    .projectfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 30%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dotfooter h1{
+        position: absolute;
+        bottom: 0.5%;
+        left: 48%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+    .contactfooter a{
+        position: absolute;
+        bottom: 0.2%;
+        left: 50%;
+        font-size: 65%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .name{
+        margin-top:70% ;
+        height: 28%;
+        
+    }
+}

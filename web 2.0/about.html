@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJESH | PORTFOLIO(About)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="homeheader">&#x2022 HOME</a>
+        <h1 class="aboutheader">ABOUT</h1>
+        <a href="EXPERIENCE" class="expheader">&#x2022 EXPERIENCE</a>
+    </div>
+
+<div class="welcome-container" id="welcome-js"> 
+    
+        <h1 class="welcome-title">WELCOME</h1>
+        <button type="button" class="btn" id="open" onclick="openup()">EXPLORE</button>
+
+</div>
+
+<div class="info-container" id="popup">
+    
+        <div class="bginfo">
+            <h1>ASPIRING FRONT-END DEVELOPER</h1><br><br><br>
+            <p> I am a dedicated BTech student who is deeply committed to continual learning and skill acquisition. I possess a fervent passion for exploring new avenues and honing my abilities to thrive in various domains.I am eager to explore opportunities where I can contribute meaningfully while also advancing professionally.</p>
+        </div>
+        <div class="imginfo">
+            <img src="assets/ajesh.jpg" alt="profilepic" width="520px" height="520px">
+        </div>
+        <div class="closeinfo">
+            <button type="button" class="close-btn" id="close" onclick="closeup()"><img src="assets/close.png" alt="close"></button>
+        </div>
+    
+</div>
+
+<script>
+let popup = document.getElementById("popup");
+let cease = document.getElementById("welcome-js")
+function openup(){
+    popup.classList.add("open-popup");
+    cease.classList.add("welcome-btn");
+}
+
+function closeup(){
+    popup.classList.remove("open-popup");
+    cease.classList.remove("welcome-btn");
+}
+</script>
+</body>
+</html>
